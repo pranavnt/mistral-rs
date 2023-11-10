@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mistral-rs"
+version = "0.1.0"
+description = ""
+authors = ["Pranav Teegavarapu <pranavnt@outlook.com>"]
+readme = "README.md"
+packages = [{include = "mistral_rs"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.1.0"
+sentencepiece = "^0.1.99"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
